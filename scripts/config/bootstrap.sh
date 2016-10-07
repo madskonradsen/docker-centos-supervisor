@@ -7,10 +7,6 @@ set -u
 # Default supervisord params
 SUPERVISOR_PARAMS='-c /etc/supervisord.conf'
 
-# Make sure that we have folders for logs etc.
-mkdir -p /data/conf /data/run /data/logs
-chmod 711 /data/conf /data/run /data/logs
-
 # Execute all scripts in init
 if [ "$(ls /config/init/)" ]; then
   for init in /config/init/*.sh; do
