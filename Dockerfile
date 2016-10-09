@@ -15,6 +15,6 @@ RUN \
   easy_install supervisor
 
 # Add supervisord.conf, bootstrap.sh files
-COPY scripts /
+COPY dockerfiles /
 
 ENTRYPOINT ["/config/bootstrap.sh"]
