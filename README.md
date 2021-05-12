@@ -1,6 +1,10 @@
 # CentOS 7 Docker-image with Supervisor
 [![Circle CI](https://circleci.com/gh/madskonradsen/docker-centos-supervisor.svg?style=svg)](https://circleci.com/gh/madskonradsen/docker-centos-supervisor)
 
+https://hub.docker.com/r/madskonradsen/centos-supervisor
+
+`docker pull madskonradsen/centos-supervisor`
+
 It's built on top of the [centos:centos7](https://registry.hub.docker.com/_/centos/) image which only adds 20MB.
 
 ## Features
