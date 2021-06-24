@@ -1,5 +1,5 @@
 # CentOS 7 Docker-image with Supervisor
-[![Circle CI](https://circleci.com/gh/madskonradsen/docker-centos-supervisor.svg?style=svg)](https://circleci.com/gh/madskonradsen/docker-centos-supervisor)
+[![Circle CI](https://circleci.com/gh/madskonradsen/docker-centos-supervisor.svg?style=svg)](https://circleci.com/gh/madskonradsen/docker-centos-supervisor) ![Docker Pulls](https://img.shields.io/docker/pulls/madskonradsen/centos-supervisor)
 
 https://hub.docker.com/r/madskonradsen/centos-supervisor
 
